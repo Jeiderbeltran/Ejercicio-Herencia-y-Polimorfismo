@@ -9,14 +9,13 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author Jeider
+ * @author new
  */
-public class Gallina extends Ave {
-    public static final Logger logger = (Logger) LoggerFactory.getLogger(Gallina.class);
-    public void Gallina(){
-        logger.debug("instancindo una Gallina");
-        tipoSonido = new Grasnido();
-        tipoVuelo  = new VueloConAlas();
+public class Canto implements TipoSonido {
+      public static final Logger logger = (Logger) LoggerFactory.getLogger(Canto.class);
+    
+      public void makeSound() {
+        logger.debug("Estoy cantando");
+        System.out.println("Estoy cantando");
     }
 }
-

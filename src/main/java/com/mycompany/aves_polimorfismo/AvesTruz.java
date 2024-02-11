@@ -1,17 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.aves_polimorfismo;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  *
  * @author Jeider
  */
 public class AvesTruz extends Ave {
-
-    @Override 
-    
-    public void makeSound(){
-        System.out.println("<<Siencio>>");
+  
+    public static final Logger logger = (Logger) LoggerFactory.getLogger(AvesTruz.class);
+    public void Avestrus(){
+        logger.debug("instanciando un  avestruz");
+        tipoSonido = new SinCanto();
+        tipoVuelo  = new SinVuelo();
     }
-}
+    }

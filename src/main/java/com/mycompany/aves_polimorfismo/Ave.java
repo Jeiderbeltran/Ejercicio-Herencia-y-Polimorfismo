@@ -9,8 +9,19 @@ package com.mycompany.aves_polimorfismo;
  * @author new
  */
  public abstract class Ave {
+     TipoSonido tipoSonido;
+     TipoVuelo tipoVuelo;
+     
+     public void realizarVuelo(){
+         tipoVuelo.vuelo();
+         
+     }
+       public void realizarSonido(){
+         tipoSonido.makeSound();
+     }    
+ }
+     
+     
 
-public abstract void makeSound(); 
-}
    
 
