@@ -8,9 +8,6 @@ package com.mycompany.aves_polimorfismo;
  *
  * @author new
  */
- public abstract class Ave {
-
-public abstract void makeSound(); 
+public interface Volar {
+     void Vuela();
 }
-   
-

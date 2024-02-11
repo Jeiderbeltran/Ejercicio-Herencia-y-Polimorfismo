@@ -13,9 +13,8 @@ public class Gallina extends Ave {
    public void makeSound(){
        System.out.println("Grasna");
    }
-   @Override
-    
-    public void vuela(){
-        System.out.println("No vuela");
-    }
+       public void Vuela(){
+        System.out.println("Vuela con alas ");
 }
+}
+
