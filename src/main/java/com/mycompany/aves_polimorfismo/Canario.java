@@ -11,10 +11,10 @@ import org.slf4j.LoggerFactory;
 public class Canario extends Ave{
 
    public static final Logger logger = (Logger) LoggerFactory.getLogger(Canario.class);
-    public void Canario(){
+    public Canario(){
         logger.debug("instancindo un canario");
-        tipoSonido = new Canto();
-        tipoVuelo  = new VueloConAlas();
+        this.setTipoSonido( new Canto());
+        this.setTipoVuelo( new VueloConAlas());
     }
     }
    

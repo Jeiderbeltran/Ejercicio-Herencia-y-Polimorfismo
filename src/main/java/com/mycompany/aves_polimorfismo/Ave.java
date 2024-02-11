@@ -11,14 +11,23 @@ package com.mycompany.aves_polimorfismo;
  public abstract class Ave {
      TipoSonido tipoSonido;
      TipoVuelo tipoVuelo;
-     
-     public void realizarVuelo(){
-         tipoVuelo.vuelo();
-         
-     }
-       public void realizarSonido(){
-         tipoSonido.makeSound();
-     }    
+
+    
+    public void setTipoSonido(TipoSonido tipoSonido) {
+        this.tipoSonido = tipoSonido;
+    }
+
+    public void setTipoVuelo(TipoVuelo tipoVuelo) {
+        this.tipoVuelo = tipoVuelo;
+    }
+    
+    public void realizarVuelo(){
+        tipoVuelo.vuelo();
+    }
+    
+     public void realizarSonido(){
+        tipoSonido.makeSound();
+    }
  }
      
      

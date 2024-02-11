@@ -13,10 +13,10 @@ import org.slf4j.LoggerFactory;
  */
 public class Gallina extends Ave {
     public static final Logger logger = (Logger) LoggerFactory.getLogger(Gallina.class);
-    public void Gallina(){
+    public Gallina(){
         logger.debug("instancindo una Gallina");
-        tipoSonido = new Grasnido();
-        tipoVuelo  = new VueloConAlas();
+        this.setTipoSonido( new Grasnido());
+        this.setTipoVuelo( new VueloConAlas());
     }
 }
 

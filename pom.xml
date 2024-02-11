@@ -12,6 +12,18 @@
             <version>1.7.36</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>codes.sen</groupId>
+            <artifactId>utility</artifactId>
+            <version>1.0.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.arsframework</groupId>
+            <artifactId>ars-annotation</artifactId>
+            <version>1.0.0</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

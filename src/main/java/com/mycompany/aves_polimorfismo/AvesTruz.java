@@ -11,9 +11,9 @@ import org.slf4j.LoggerFactory;
 public class AvesTruz extends Ave {
   
     public static final Logger logger = (Logger) LoggerFactory.getLogger(AvesTruz.class);
-    public void Avestrus(){
+    public AvesTruz(){
         logger.debug("instanciando un  avestruz");
-        tipoSonido = new SinCanto();
-        tipoVuelo  = new SinVuelo();
+        this.setTipoSonido( new SinCanto());
+        this.setTipoVuelo( new SinVuelo());
     }
     }
