@@ -14,4 +14,9 @@ public class AvesTruz extends Ave {
     public void makeSound(){
         System.out.println("<<Siencio>>");
     }
+    @Override
+    
+    public void vuela(){
+        System.out.println("No vuela");
+    }
 }

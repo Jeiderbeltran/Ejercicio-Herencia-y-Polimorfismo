@@ -13,4 +13,9 @@ public class Canario extends Ave{
     public void makeSound(){
             System.out.println("Canta");
     }
+    @Override
+    
+    public void vuela(){
+        System.out.println("Vuela Con alas ");
+    }
 }
